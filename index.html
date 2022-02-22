@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejemplo Formulario</title>
 </head>
 <body>
-    <script src="main.js"></script>
+    <form id='formulario'>
+        Nombre: <input type="text" name='nombre' value=' Juan'/>
+        <br/>
+        Apellido: <input type="text " name='apellido' value='Perez'/>
+        <br/>
+    </form>
+    <button onclick='mostrarValores()'> Mostrar</button>
+    <div id="valores"></div>
+<script src="main.js"></script>
 </body>
 </html>
